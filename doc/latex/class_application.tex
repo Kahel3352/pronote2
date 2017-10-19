@@ -1,0 +1,106 @@
+\hypertarget{class_application}{\section{Application Class Reference}
+\label{class_application}\index{Application@{Application}}
+}
+
+
+L'application est instanciée une seule fois dans main.  
+
+
+
+
+{\ttfamily \#include $<$application.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_application_afa8cc05ce6b6092be5ecdfdae44e05f8}{\hyperlink{class_application_afa8cc05ce6b6092be5ecdfdae44e05f8}{Application} ()}\label{class_application_afa8cc05ce6b6092be5ecdfdae44e05f8}
+
+\begin{DoxyCompactList}\small\item\em constructeur d'\hyperlink{class_application}{Application} (appellé qu'une seule fois dans main) \end{DoxyCompactList}\item 
+\hypertarget{class_application_a68965449404743bf1add056784d6cf81}{void \hyperlink{class_application_a68965449404743bf1add056784d6cf81}{run} ()}\label{class_application_a68965449404743bf1add056784d6cf81}
+
+\begin{DoxyCompactList}\small\item\em est lancé une fois au démarrage du programme \end{DoxyCompactList}\item 
+\hypertarget{class_application_abc2e709f05909ef74356f38115c6a4f9}{int \hyperlink{class_application_abc2e709f05909ef74356f38115c6a4f9}{input\-Choix} ()}\label{class_application_abc2e709f05909ef74356f38115c6a4f9}
+
+\begin{DoxyCompactList}\small\item\em demande à l'utilisateur de saisir un choix numéroté \end{DoxyCompactList}\item 
+\hypertarget{class_application_a1e9ccebafcd28f35ea057b97f07e40cd}{void \hyperlink{class_application_a1e9ccebafcd28f35ea057b97f07e40cd}{display\-Matieres} ()}\label{class_application_a1e9ccebafcd28f35ea057b97f07e40cd}
+
+\begin{DoxyCompactList}\small\item\em affiche les matières dans l'application \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_matiere}{Matiere} $>$ $\ast$ \hyperlink{class_application_a117d490f9c6fcfb70f561ad91b92aa20}{get\-Vect\-Matiere} ()
+\begin{DoxyCompactList}\small\item\em permet d'acceder à un pointeur vers le vecteur qui contient les matières \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_application_a2e5dee1fbe413783d3500fe8da567ad4}{void \hyperlink{class_application_a2e5dee1fbe413783d3500fe8da567ad4}{stop} ()}\label{class_application_a2e5dee1fbe413783d3500fe8da567ad4}
+
+\begin{DoxyCompactList}\small\item\em Arrête l'application. \end{DoxyCompactList}\item 
+\hypertarget{class_application_add54e7e284193c33816a02cd7095a1f9}{void \hyperlink{class_application_add54e7e284193c33816a02cd7095a1f9}{display\-Menu} ()}\label{class_application_add54e7e284193c33816a02cd7095a1f9}
+
+\begin{DoxyCompactList}\small\item\em affiche le menu \end{DoxyCompactList}\item 
+void \hyperlink{class_application_a5ca4fe263fa30512c901e699f6c68bbf}{action\-En\-Fonction\-Du\-Choix} (int choix)
+\begin{DoxyCompactList}\small\item\em execute une action en fonction du choix correspondant au menu \end{DoxyCompactList}\item 
+\hypertarget{class_application_a0955ba50bcf6ea2046262e510cce397e}{void \hyperlink{class_application_a0955ba50bcf6ea2046262e510cce397e}{create\-Section} ()}\label{class_application_a0955ba50bcf6ea2046262e510cce397e}
+
+\begin{DoxyCompactList}\small\item\em créer une section dans l'application en demandant à l'utilisateur d'entrer des informations \end{DoxyCompactList}\item 
+\hypertarget{class_application_ac541cc1b3ecc5096252127243b8fc207}{void \hyperlink{class_application_ac541cc1b3ecc5096252127243b8fc207}{display\-Sections} ()}\label{class_application_ac541cc1b3ecc5096252127243b8fc207}
+
+\begin{DoxyCompactList}\small\item\em affiche les sections dans l'application \end{DoxyCompactList}\item 
+\hypertarget{class_application_a0e1159d250594e7a388bd031a1c845d3}{void \hyperlink{class_application_a0e1159d250594e7a388bd031a1c845d3}{pick\-Section} ()}\label{class_application_a0e1159d250594e7a388bd031a1c845d3}
+
+\begin{DoxyCompactList}\small\item\em demande à l'utilisateur de choisir une section puis rentre dans le menu de cette section \end{DoxyCompactList}\item 
+\hypertarget{class_application_ad3926f6b73edf14c855a5d9ca0def19d}{void \hyperlink{class_application_ad3926f6b73edf14c855a5d9ca0def19d}{create\-Matiere} ()}\label{class_application_ad3926f6b73edf14c855a5d9ca0def19d}
+
+\begin{DoxyCompactList}\small\item\em créer une matière dans l'application en demandant le nom de la matière à l'utilisateur \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_application_adacae6cc3c6f512d6d4438410f715f96}{vector$<$ \hyperlink{class_section}{Section} $>$ \hyperlink{class_application_adacae6cc3c6f512d6d4438410f715f96}{\-\_\-vect\-Section}}\label{class_application_adacae6cc3c6f512d6d4438410f715f96}
+
+\begin{DoxyCompactList}\small\item\em contient les section de l'application \end{DoxyCompactList}\item 
+\hypertarget{class_application_a55bcc1a609df7cdbed974290d404c04b}{vector$<$ \hyperlink{class_matiere}{Matiere} $>$ \hyperlink{class_application_a55bcc1a609df7cdbed974290d404c04b}{\-\_\-vect\-Matiere}}\label{class_application_a55bcc1a609df7cdbed974290d404c04b}
+
+\begin{DoxyCompactList}\small\item\em contient les matières de l'application \end{DoxyCompactList}\item 
+\hypertarget{class_application_ae1c1ff7a7663d9baa9b65a7ba8e1dcf8}{bool \hyperlink{class_application_ae1c1ff7a7663d9baa9b65a7ba8e1dcf8}{is\-Running}}\label{class_application_ae1c1ff7a7663d9baa9b65a7ba8e1dcf8}
+
+\begin{DoxyCompactList}\small\item\em Si faux l'application s'arette. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+L'application est instanciée une seule fois dans main. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_application_a5ca4fe263fa30512c901e699f6c68bbf}{\index{Application@{Application}!action\-En\-Fonction\-Du\-Choix@{action\-En\-Fonction\-Du\-Choix}}
+\index{action\-En\-Fonction\-Du\-Choix@{action\-En\-Fonction\-Du\-Choix}!Application@{Application}}
+\subsubsection[{action\-En\-Fonction\-Du\-Choix}]{\setlength{\rightskip}{0pt plus 5cm}void Application\-::action\-En\-Fonction\-Du\-Choix (
+\begin{DoxyParamCaption}
+\item[{int}]{choix}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_application_a5ca4fe263fa30512c901e699f6c68bbf}
+
+
+execute une action en fonction du choix correspondant au menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & choix choix du menu \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_application_a117d490f9c6fcfb70f561ad91b92aa20}{\index{Application@{Application}!get\-Vect\-Matiere@{get\-Vect\-Matiere}}
+\index{get\-Vect\-Matiere@{get\-Vect\-Matiere}!Application@{Application}}
+\subsubsection[{get\-Vect\-Matiere}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Matiere} $>$ $\ast$ Application\-::get\-Vect\-Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_application_a117d490f9c6fcfb70f561ad91b92aa20}
+
+
+permet d'acceder à un pointeur vers le vecteur qui contient les matières 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\-Matiere$>$$\ast$ 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{application_8h}{application.\-h}\item 
+application.\-cpp\end{DoxyCompactItemize}

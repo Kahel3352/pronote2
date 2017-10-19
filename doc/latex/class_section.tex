@@ -1,0 +1,196 @@
+\hypertarget{class_section}{\section{Section Class Reference}
+\label{class_section}\index{Section@{Section}}
+}
+
+
+Contient des élèves.  
+
+
+
+
+{\ttfamily \#include $<$section.\-h$>$}
+
+
+
+Collaboration diagram for Section\-:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_section_a77b88e06692841ba49559d22a25a09f9}{\hyperlink{class_section_a77b88e06692841ba49559d22a25a09f9}{Section} ()}\label{class_section_a77b88e06692841ba49559d22a25a09f9}
+
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\hyperlink{class_section_ad4aca2b89eed415687a4ccd92d2b32ed}{Section} (\hyperlink{class_application}{Application} $\ast$parent, string name)
+\begin{DoxyCompactList}\small\item\em Constructeur surchargé qui permet de donnée un nom à la \hyperlink{class_section}{Section} et de faire le lien avec l'\hyperlink{class_application}{Application}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a8c35cb0ca6f58e706d3dc0b3a85631d7}{void \hyperlink{class_section_a8c35cb0ca6f58e706d3dc0b3a85631d7}{display\-Menu} ()}\label{class_section_a8c35cb0ca6f58e706d3dc0b3a85631d7}
+
+\begin{DoxyCompactList}\small\item\em Affiche le menu de la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a0f5dca9b6e8598e289337ad64cb43803}{void \hyperlink{class_section_a0f5dca9b6e8598e289337ad64cb43803}{action\-En\-Fonction\-Du\-Choix} (int choix)}\label{class_section_a0f5dca9b6e8598e289337ad64cb43803}
+
+\begin{DoxyCompactList}\small\item\em Execute une action en fonction du choix correspondant au menu. \end{DoxyCompactList}\item 
+bool \hyperlink{class_section_a3e1d4d16a064d367f74c2f23a630dc7d}{is\-Displaying} ()
+\item 
+\hypertarget{class_section_a1f9ebccdb1937ca61a0d4adcde310832}{void \hyperlink{class_section_a1f9ebccdb1937ca61a0d4adcde310832}{display} ()}\label{class_section_a1f9ebccdb1937ca61a0d4adcde310832}
+
+\begin{DoxyCompactList}\small\item\em Affiche des informations sur la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a32e3a0a0682f01437a82ddbf7dd59b0a}{void \hyperlink{class_section_a32e3a0a0682f01437a82ddbf7dd59b0a}{input} ()}\label{class_section_a32e3a0a0682f01437a82ddbf7dd59b0a}
+
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur le nom de la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a498f96acdfada6f355d1a35a591f4a07}{void \hyperlink{class_section_a498f96acdfada6f355d1a35a591f4a07}{add\-Etudiant} ()}\label{class_section_a498f96acdfada6f355d1a35a591f4a07}
+
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur des informations sur un \hyperlink{class_etudiant}{Etudiant} et le rajoute à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+void \hyperlink{class_section_afd3afcbd3da0bf6f277cdb9a37822afd}{add\-Etudiant} (\hyperlink{class_etudiant}{Etudiant} etudiant)
+\begin{DoxyCompactList}\small\item\em Ajoute un \hyperlink{class_etudiant}{Etudiant} à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_ad892af516bb83efba57fa8fbce5a0bde}{void \hyperlink{class_section_ad892af516bb83efba57fa8fbce5a0bde}{add\-Matiere} ()}\label{class_section_ad892af516bb83efba57fa8fbce5a0bde}
+
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur des informations sur une \hyperlink{class_matiere}{Matiere} et le rajoute à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a0780c65eae7b700bdbf064a92258a9e4}{add\-Matiere} (\hyperlink{class_matiere}{Matiere} $\ast$matiere, int coeff)
+\begin{DoxyCompactList}\small\item\em Ajoute une \hyperlink{class_matiere}{Matiere} à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_ab69fdf65ad9bff767e1d3b2375245392}{void \hyperlink{class_section_ab69fdf65ad9bff767e1d3b2375245392}{add\-Evaluation} ()}\label{class_section_ab69fdf65ad9bff767e1d3b2375245392}
+
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur des informations sur une \hyperlink{class_evaluation}{Evaluation} et la rajoute à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_aa3bbef64322a8735737c954b904b2b7c}{void \hyperlink{class_section_aa3bbef64322a8735737c954b904b2b7c}{display\-Matieres} ()}\label{class_section_aa3bbef64322a8735737c954b904b2b7c}
+
+\begin{DoxyCompactList}\small\item\em Affiche les \hyperlink{class_matiere}{Matiere} de la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a221a38b7f18e6c32e61b1c9e51ace2a9}{void \hyperlink{class_section_a221a38b7f18e6c32e61b1c9e51ace2a9}{display\-Etudiants} ()}\label{class_section_a221a38b7f18e6c32e61b1c9e51ace2a9}
+
+\begin{DoxyCompactList}\small\item\em Affiche les étudiants de la Sections. \end{DoxyCompactList}\item 
+\hypertarget{class_section_afc96e62025efee9f2bc82c42b57b4f0c}{void \hyperlink{class_section_afc96e62025efee9f2bc82c42b57b4f0c}{display\-Evaluation} ()}\label{class_section_afc96e62025efee9f2bc82c42b57b4f0c}
+
+\begin{DoxyCompactList}\small\item\em Affiche les \hyperlink{class_evaluation}{Evaluation} de la section. \end{DoxyCompactList}\item 
+\hypertarget{class_section_ac9097debb5e6a6f1931bf2d9753a2e6d}{void \hyperlink{class_section_ac9097debb5e6a6f1931bf2d9753a2e6d}{display\-Bulletin} ()}\label{class_section_ac9097debb5e6a6f1931bf2d9753a2e6d}
+
+\begin{DoxyCompactList}\small\item\em Affiche les \hyperlink{class_bulletin}{Bulletin} de la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a68c3b681a7d9ebed80fb39009a8e2e64}{void \hyperlink{class_section_a68c3b681a7d9ebed80fb39009a8e2e64}{add\-Bulletin} ()}\label{class_section_a68c3b681a7d9ebed80fb39009a8e2e64}
+
+\begin{DoxyCompactList}\small\item\em Demande des informations sur un \hyperlink{class_bulletin}{Bulletin} à l'utilisateur et l'ajoute à la \hyperlink{class_section}{Section}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_section_a60839a2ee0346cdcf24ac88ca96caf5d}{matiere\-Exist} (\hyperlink{class_matiere}{Matiere} $\ast$matiere)
+\begin{DoxyCompactList}\small\item\em Vérifie si une matière existe dans la section. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_section_a6968d8f01196bf7d9871479c0a873e3f}{\hyperlink{class_application}{Application} $\ast$ \hyperlink{class_section_a6968d8f01196bf7d9871479c0a873e3f}{\-\_\-parent}}\label{class_section_a6968d8f01196bf7d9871479c0a873e3f}
+
+\begin{DoxyCompactList}\small\item\em Pointe vers l'application qui contient cette section. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a2c8c6e23a30debe8d438403e95d3ad44}{string \hyperlink{class_section_a2c8c6e23a30debe8d438403e95d3ad44}{\-\_\-name}}\label{class_section_a2c8c6e23a30debe8d438403e95d3ad44}
+
+\begin{DoxyCompactList}\small\item\em Nom de la section. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a5c4caabf8140d37dc7de0419ae61a17b}{vector$<$ \hyperlink{class_etudiant}{Etudiant} $>$ \hyperlink{class_section_a5c4caabf8140d37dc7de0419ae61a17b}{\-\_\-vect\-Etudiant}}\label{class_section_a5c4caabf8140d37dc7de0419ae61a17b}
+
+\begin{DoxyCompactList}\small\item\em Contient les étudiants de la section. \end{DoxyCompactList}\item 
+\hypertarget{class_section_af5c63baa9d2747b80cf2c6327e273834}{bool \hyperlink{class_section_af5c63baa9d2747b80cf2c6327e273834}{\-\_\-is\-Displaying}}\label{class_section_af5c63baa9d2747b80cf2c6327e273834}
+
+\begin{DoxyCompactList}\small\item\em Si vrai affiche le menu de la section sinon retourne dans le menu principal. \end{DoxyCompactList}\item 
+\hypertarget{class_section_af26521f59e8508f8f9cca2e4391240d4}{vector$<$ \hyperlink{class_matiere}{Matiere} $\ast$ $>$ \hyperlink{class_section_af26521f59e8508f8f9cca2e4391240d4}{\-\_\-vect\-Matiere}}\label{class_section_af26521f59e8508f8f9cca2e4391240d4}
+
+\begin{DoxyCompactList}\small\item\em Contient les pointeurs des matières de la section. \end{DoxyCompactList}\item 
+\hypertarget{class_section_ae957391ce18f97a8440dd36a59a067fd}{vector$<$ int $>$ \hyperlink{class_section_ae957391ce18f97a8440dd36a59a067fd}{\-\_\-vect\-Coeff}}\label{class_section_ae957391ce18f97a8440dd36a59a067fd}
+
+\begin{DoxyCompactList}\small\item\em Contient les coefficients pour chaque matières. \end{DoxyCompactList}\item 
+\hypertarget{class_section_a15909656681ba3090dfaa384ce99713d}{vector$<$ \hyperlink{class_evaluation}{Evaluation} $>$ \hyperlink{class_section_a15909656681ba3090dfaa384ce99713d}{\-\_\-vect\-Evaluation}}\label{class_section_a15909656681ba3090dfaa384ce99713d}
+
+\begin{DoxyCompactList}\small\item\em Contient les évaluation de la section. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Contient des élèves. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_section_ad4aca2b89eed415687a4ccd92d2b32ed}{\index{Section@{Section}!Section@{Section}}
+\index{Section@{Section}!Section@{Section}}
+\subsubsection[{Section}]{\setlength{\rightskip}{0pt plus 5cm}Section\-::\-Section (
+\begin{DoxyParamCaption}
+\item[{{\bf Application} $\ast$}]{parent, }
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_section_ad4aca2b89eed415687a4ccd92d2b32ed}
+
+
+Constructeur surchargé qui permet de donnée un nom à la \hyperlink{class_section}{Section} et de faire le lien avec l'\hyperlink{class_application}{Application}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Application$\ast$} & \hyperlink{class_application}{Application} dans laquelle est instanciée la section \\
+\hline
+{\em string} & Nom de la section \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_section_afd3afcbd3da0bf6f277cdb9a37822afd}{\index{Section@{Section}!add\-Etudiant@{add\-Etudiant}}
+\index{add\-Etudiant@{add\-Etudiant}!Section@{Section}}
+\subsubsection[{add\-Etudiant}]{\setlength{\rightskip}{0pt plus 5cm}void Section\-::add\-Etudiant (
+\begin{DoxyParamCaption}
+\item[{{\bf Etudiant}}]{etudiant}
+\end{DoxyParamCaption}
+)}}\label{class_section_afd3afcbd3da0bf6f277cdb9a37822afd}
+
+
+Ajoute un \hyperlink{class_etudiant}{Etudiant} à la \hyperlink{class_section}{Section}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_etudiant}{Etudiant}} & \hyperlink{class_etudiant}{Etudiant} à ajouter à la section \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_section_a0780c65eae7b700bdbf064a92258a9e4}{\index{Section@{Section}!add\-Matiere@{add\-Matiere}}
+\index{add\-Matiere@{add\-Matiere}!Section@{Section}}
+\subsubsection[{add\-Matiere}]{\setlength{\rightskip}{0pt plus 5cm}void Section\-::add\-Matiere (
+\begin{DoxyParamCaption}
+\item[{{\bf Matiere} $\ast$}]{matiere, }
+\item[{int}]{coeff}
+\end{DoxyParamCaption}
+)}}\label{class_section_a0780c65eae7b700bdbf064a92258a9e4}
+
+
+Ajoute une \hyperlink{class_matiere}{Matiere} à la \hyperlink{class_section}{Section}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Matiere$\ast$} & \hyperlink{class_matiere}{Matiere} dans l'\hyperlink{class_application}{Application} à ajouter à la section \\
+\hline
+{\em int} & Coefficient de la \hyperlink{class_matiere}{Matiere} dans la \hyperlink{class_section}{Section} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_section_a3e1d4d16a064d367f74c2f23a630dc7d}{\index{Section@{Section}!is\-Displaying@{is\-Displaying}}
+\index{is\-Displaying@{is\-Displaying}!Section@{Section}}
+\subsubsection[{is\-Displaying}]{\setlength{\rightskip}{0pt plus 5cm}bool Section\-::is\-Displaying (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_section_a3e1d4d16a064d367f74c2f23a630dc7d}
+\begin{DoxyReturn}{Returns}
+true la section doit continuer à s'afficher 
+
+false la section est quittée 
+\end{DoxyReturn}
+\hypertarget{class_section_a60839a2ee0346cdcf24ac88ca96caf5d}{\index{Section@{Section}!matiere\-Exist@{matiere\-Exist}}
+\index{matiere\-Exist@{matiere\-Exist}!Section@{Section}}
+\subsubsection[{matiere\-Exist}]{\setlength{\rightskip}{0pt plus 5cm}bool Section\-::matiere\-Exist (
+\begin{DoxyParamCaption}
+\item[{{\bf Matiere} $\ast$}]{matiere}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a60839a2ee0346cdcf24ac88ca96caf5d}
+
+
+Vérifie si une matière existe dans la section. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pointeur} & vers la matière qu'on veut verifier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true la matière existe dans la section 
+
+false la matière n'existe pas dans la section 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{section_8h}{section.\-h}\item 
+section.\-cpp\end{DoxyCompactItemize}

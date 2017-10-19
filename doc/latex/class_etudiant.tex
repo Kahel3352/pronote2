@@ -1,0 +1,127 @@
+\hypertarget{class_etudiant}{\section{Etudiant Class Reference}
+\label{class_etudiant}\index{Etudiant@{Etudiant}}
+}
+
+
+Correspond à un élève dans une \hyperlink{class_section}{Section}.  
+
+
+
+
+{\ttfamily \#include $<$etudiant.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_etudiant_abfb4e7f3a5faac571517798e059242a4}{\hyperlink{class_etudiant_abfb4e7f3a5faac571517798e059242a4}{Etudiant} ()}\label{class_etudiant_abfb4e7f3a5faac571517798e059242a4}
+
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut. \end{DoxyCompactList}\item 
+\hyperlink{class_etudiant_ae56df647746c248e8825de9f0c7aef2a}{Etudiant} (string name, string nickname, int age)
+\begin{DoxyCompactList}\small\item\em Constructeur surchargé \end{DoxyCompactList}\item 
+\hypertarget{class_etudiant_a37433540e5c7b724de0964a5ecbbead8}{void \hyperlink{class_etudiant_a37433540e5c7b724de0964a5ecbbead8}{input} ()}\label{class_etudiant_a37433540e5c7b724de0964a5ecbbead8}
+
+\begin{DoxyCompactList}\small\item\em Demande à l'utilisateur de saisir des informations sur l'\hyperlink{class_etudiant}{Etudiant}. \end{DoxyCompactList}\item 
+void \hyperlink{class_etudiant_afb95ac0c74157e6065e1de603c54381c}{display} ()
+\item 
+void \hyperlink{class_etudiant_a44d8e2904da296377edc3f85ef23bb6c}{add\-Bulletin} (\hyperlink{class_bulletin}{Bulletin} bulletin)
+\begin{DoxyCompactList}\small\item\em Ajoute un \hyperlink{class_bulletin}{Bulletin} à l'\hyperlink{class_etudiant}{Etudiant}. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_bulletin}{Bulletin} $>$ $\ast$ \hyperlink{class_etudiant_ac887cfae2127f8a6051447cab254634d}{get\-Vect\-Bulletin} ()
+\begin{DoxyCompactList}\small\item\em Accesseur du vecteur de \hyperlink{class_bulletin}{Bulletin}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_etudiant_abba3c8563cdb233d88ee64fe5c669b91}{string \hyperlink{class_etudiant_abba3c8563cdb233d88ee64fe5c669b91}{\-\_\-name}}\label{class_etudiant_abba3c8563cdb233d88ee64fe5c669b91}
+
+\begin{DoxyCompactList}\small\item\em Nom de l'\hyperlink{class_etudiant}{Etudiant}. \end{DoxyCompactList}\item 
+\hypertarget{class_etudiant_add9b98a047ad6970abe4f0a52e683228}{string \hyperlink{class_etudiant_add9b98a047ad6970abe4f0a52e683228}{\-\_\-nickname}}\label{class_etudiant_add9b98a047ad6970abe4f0a52e683228}
+
+\begin{DoxyCompactList}\small\item\em Prénom de l'\hyperlink{class_etudiant}{Etudiant}. \end{DoxyCompactList}\item 
+\hypertarget{class_etudiant_a0ef171fa224f5aaad46e5ae04e81f512}{int \hyperlink{class_etudiant_a0ef171fa224f5aaad46e5ae04e81f512}{\-\_\-age}}\label{class_etudiant_a0ef171fa224f5aaad46e5ae04e81f512}
+
+\begin{DoxyCompactList}\small\item\em Âge de l'\hyperlink{class_etudiant}{Etudiant}. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_bulletin}{Bulletin} $>$ \hyperlink{class_etudiant_a7a5650c79bad376ef70930e59dfa3994}{\-\_\-vect\-Bulletin}
+\begin{DoxyCompactList}\small\item\em Contient les \hyperlink{class_bulletin}{Bulletin} par semestre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Correspond à un élève dans une \hyperlink{class_section}{Section}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_etudiant_ae56df647746c248e8825de9f0c7aef2a}{\index{Etudiant@{Etudiant}!Etudiant@{Etudiant}}
+\index{Etudiant@{Etudiant}!Etudiant@{Etudiant}}
+\subsubsection[{Etudiant}]{\setlength{\rightskip}{0pt plus 5cm}Etudiant\-::\-Etudiant (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{nickname, }
+\item[{int}]{age}
+\end{DoxyParamCaption}
+)}}\label{class_etudiant_ae56df647746c248e8825de9f0c7aef2a}
+
+
+Constructeur surchargé 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Nom de l'\hyperlink{class_etudiant}{Etudiant} \\
+\hline
+{\em string} & Prénom de l'\hyperlink{class_etudiant}{Etudiant} \\
+\hline
+{\em int} & Âge de l'\hyperlink{class_etudiant}{Etudiant} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_etudiant_a44d8e2904da296377edc3f85ef23bb6c}{\index{Etudiant@{Etudiant}!add\-Bulletin@{add\-Bulletin}}
+\index{add\-Bulletin@{add\-Bulletin}!Etudiant@{Etudiant}}
+\subsubsection[{add\-Bulletin}]{\setlength{\rightskip}{0pt plus 5cm}void Etudiant\-::add\-Bulletin (
+\begin{DoxyParamCaption}
+\item[{{\bf Bulletin}}]{bulletin}
+\end{DoxyParamCaption}
+)}}\label{class_etudiant_a44d8e2904da296377edc3f85ef23bb6c}
+
+
+Ajoute un \hyperlink{class_bulletin}{Bulletin} à l'\hyperlink{class_etudiant}{Etudiant}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_bulletin}{Bulletin}} & \hyperlink{class_bulletin}{Bulletin} à ajouter à l'\hyperlink{class_etudiant}{Etudiant} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_etudiant_afb95ac0c74157e6065e1de603c54381c}{\index{Etudiant@{Etudiant}!display@{display}}
+\index{display@{display}!Etudiant@{Etudiant}}
+\subsubsection[{display}]{\setlength{\rightskip}{0pt plus 5cm}void Etudiant\-::display (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_etudiant_afb95ac0c74157e6065e1de603c54381c}
+Affiche des informations sur l'\hyperlink{class_etudiant}{Etudiant} \hypertarget{class_etudiant_ac887cfae2127f8a6051447cab254634d}{\index{Etudiant@{Etudiant}!get\-Vect\-Bulletin@{get\-Vect\-Bulletin}}
+\index{get\-Vect\-Bulletin@{get\-Vect\-Bulletin}!Etudiant@{Etudiant}}
+\subsubsection[{get\-Vect\-Bulletin}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Bulletin} $>$ $\ast$ Etudiant\-::get\-Vect\-Bulletin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_etudiant_ac887cfae2127f8a6051447cab254634d}
+
+
+Accesseur du vecteur de \hyperlink{class_bulletin}{Bulletin}. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\-Bulletin$>$$\ast$ Pointeur vers le vecteur qui contient les \hyperlink{class_bulletin}{Bulletin} 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_etudiant_a7a5650c79bad376ef70930e59dfa3994}{\index{Etudiant@{Etudiant}!\-\_\-vect\-Bulletin@{\-\_\-vect\-Bulletin}}
+\index{\-\_\-vect\-Bulletin@{\-\_\-vect\-Bulletin}!Etudiant@{Etudiant}}
+\subsubsection[{\-\_\-vect\-Bulletin}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Bulletin}$>$ Etudiant\-::\-\_\-vect\-Bulletin\hspace{0.3cm}{\ttfamily [private]}}}\label{class_etudiant_a7a5650c79bad376ef70930e59dfa3994}
+
+
+Contient les \hyperlink{class_bulletin}{Bulletin} par semestre. 
+
+\-\_\-vect\-Bulletin\mbox{[}0\mbox{]} correspond au bulletin du premier semestre pour cet \hyperlink{class_etudiant}{Etudiant} 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{etudiant_8h}{etudiant.\-h}\item 
+etudiant.\-cpp\end{DoxyCompactItemize}
