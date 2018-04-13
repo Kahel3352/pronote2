@@ -1,0 +1,2 @@
+Ce programme minimaliste en mode console vous permet de saisir des notes pour différents élèves sur plusieurs évaluations et plusieurs semestres.
+Cette version n'implemente pas de persistance, les données ne sont pas sauvegardées.
